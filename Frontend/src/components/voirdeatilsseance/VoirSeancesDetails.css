@@ -1,0 +1,32 @@
+.seance-details .header {
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom:20px;
+    margin-top: 40px;
+margin-left: 40px;
+}
+
+.seance-details .title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.seance-details .value {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.form {
+    margin-top: 70px;
+margin-left: 30px;
+width: 500px;
+font-family: verdana, arial;
+font-size: 100%;
+text-align: left;
+}
+
+.form button
+  {
+  padding: 1.2em;
+  width: 150px;
+  margin-left: 10px;
+  }

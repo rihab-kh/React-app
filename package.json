@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "moment": "^2.29.2",
+    "react-select": "^5.3.0"
+  }
+}

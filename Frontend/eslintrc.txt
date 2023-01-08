@@ -1,0 +1,23 @@
+/*{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": ["eslint:recommended", "eslint-config-prettier"],
+  "rules": {
+    "quotes": ["error", "double"],
+    "semi":"off",
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off"
+    //"no-unused-vars":"error",
+    //"no-var":"error"
+  },
+  "env": {
+    "browser": true,
+    "jest": true
+  }
+}
+*/

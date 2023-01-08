@@ -1,0 +1,21 @@
+.lieuEntr {
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.lieuEntr span {
+    padding-right: 10px;
+}
+
+.actions {
+    color: blue;
+}
+.title:hover{
+    cursor: pointer;
+}

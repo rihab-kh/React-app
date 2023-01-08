@@ -1,0 +1,14 @@
+.form {
+  margin: 10px;
+}
+
+.actions {
+    color: blue;
+}
+.form button {
+  border-radius: 12px;
+  background-color: #310a9b;
+  color: white;
+  padding: 25px 34px;
+  text-align: center;
+}

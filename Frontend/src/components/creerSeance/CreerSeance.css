@@ -1,0 +1,41 @@
+.form {
+    margin-top: 70px;
+    margin-left: 20px;
+    width: 500px;
+    font-family: verdana, arial;
+    font-size: 100%;
+    text-align: left;
+}
+
+.form label
+  {
+    text-align: left;
+    float:left;
+  } 
+.form input
+  {
+  padding: 0.5em;
+  width: 300px;
+  }
+
+
+.seance {
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 190px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.seance span {
+    padding-right: 10px;
+}
+
+.actions {
+    color: blue;
+}

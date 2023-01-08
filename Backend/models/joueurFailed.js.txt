@@ -1,0 +1,165 @@
+// const mongoose = require("mongoose");
+// const Schema = mongoose.Schema;
+// const { ObjectId } = mongoose.Schema;
+
+// const joueurSchema = new Schema(
+//   {
+//     photo: {
+//       type: String,
+//       require: false,
+//       // unique: true,
+//     },
+//     nom: {
+//       type: String,
+//       required: true,
+//       maxLength: 32,
+//       trim: true,
+//     },
+//     prenom: {
+//       type: String,
+//       required: true,
+//       maxLength: 32,
+//       trim: true,
+//     },
+//     DateNaiss: {
+//       type: String,
+//       required: false,
+//       maxLength: 32,
+//       trim: true,
+//     },
+//     email: {
+//       type: String,
+//       required: true,
+//       trim: true,
+//       unique: true,
+//     },
+//     sexe: {
+//       type: String,
+//       trim: true,
+//       enum: ["féminin", "masculin"],
+//     },
+//     LieuNaiss: {
+//       type: String,
+//       required: false,
+//       maxLength: 32,
+//       trim: true,
+//     },
+
+//     education: {
+//       type: String,
+//       trim: true,
+//       enum: ["eleve", "étudiant"],
+//     },
+
+//     typeEtablissement: {
+//       type: String,
+//       trim: true,
+//       enum: ["étatique", "privée", "mission"],
+//     },
+
+//     ville: {
+//       type: String,
+//       required: false,
+//       maxLength: 32,
+//       trim: true,
+//     },
+
+//     telephone: {
+//       type: Number,
+//       required: true,
+//     },
+
+//     prixSeance: {
+//       type: Number,
+//       required: false,
+//     },
+
+//     poids: {
+//       type: Number,
+//       required: false,
+//     },
+
+//     taille: {
+//       type: Number,
+//       required: false,
+//     },
+
+//     IMC: {
+//       required: false,
+//       type: Number,
+//       value: function () {
+//         return this.poids / (this.taille * this.taille);
+//       },
+//     },
+//     preferenceManuelle: {
+//       type: String,
+//       trim: true,
+//       enum: ["droitier", "gaucher"],
+//     },
+
+//     seance: {
+//       type: ObjectId,
+//       ref: "Seance",
+//     },
+
+//     defi: {
+//       type: ObjectId,
+//       ref: "defis",
+//     },
+
+//     coach: {
+//       type: ObjectId,
+//       ref: "users",
+//     },
+
+//     role: {
+//       type: String,
+//       Default: "joueur",
+//     },
+
+//     firstLogin: {
+//       type: Boolean,
+//       Default: true,
+//     },
+
+//     events: [{ type: Schema.Types.ObjectId, ref: "Event" }],
+
+//     password: {
+//       type: String,
+//       required: true,
+//     },
+//   },
+//   { timestamps: true }
+// );
+
+// /*joueurSchema
+//   .virtual("password")
+//   .set(function (password) {
+//     this._password = password;
+//     this.salt = uuidv1();
+//     this.encry_password = this.securePassword(password);
+//   })
+//   .get(function () {
+//     return this._password;
+//   });
+
+// joueurSchema.methods = {
+//   authenticate: function (plainpassword) {
+//     return this.securePassword(plainpassword) === this.encry_password;
+//   },
+
+//   securePassword: function (plainpassword) {
+//     if (!plainpassword) return "";
+
+//     try {
+//       return crypto
+//         .createHmac("sha256", this.salt)
+//         .update(plainpassword)
+//         .digest("hex");
+//     } catch (err) {
+//       return "";
+//     }
+//   },
+// };*/
+
+// module.exports = mongoose.model("joueurs", joueurSchema);
